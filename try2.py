@@ -1,3 +1,5 @@
+# Selection Sort Implementation in Python
+
 def selection_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -8,6 +10,8 @@ def selection_sort(arr):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     return arr
 
-# Example usage
-data = [64, 25, 12, 22, 11]
+data = []
+for _ in range(5):
+    num = int(input("Enter a number: "))
+    data.append(num)
 print(selection_sort(data))

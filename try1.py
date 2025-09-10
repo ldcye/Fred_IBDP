@@ -13,10 +13,10 @@ if final_score >= 60:
 else:
     sucess = "fail"
 
-print("Student\'s total weighted score is: " + str(final_score)+ sucess"\n")
+print("Student\'s total weighted score is: " , str(final_score) , sucess+"\n")
 
-print("Student\'s"+ "total"+ "weighted"+ "score"+ "is:" + str(final_score)+ sucess"\n")
+print("Student\'s"+ "total"+ "weighted"+ "score"+ "is:" + str(final_score)+ sucess+"\n")
 
-print(" %s %s %s %s %s %.1f" % ("Student's total weighted score is: ", final_score, " ", sucess, "\n"))
+print(" %s %s %s %s %s %.1f" % ("Student's" "total" "weighted" "score" "is: ", final_score, " ", sucess, "\n"))
 
-print(f"Student's total weighted score is: ", ({final_score}), {sucess}"\n")
+print(f'{"Student's total weighted score is: "}, (final_score), {sucess}')
